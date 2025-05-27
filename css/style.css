@@ -1,0 +1,246 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #ffffff);
+    color: #2e3a59;
+    padding: 2rem;
+}
+
+/* Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-header h1 {
+    font-size: 1.8rem;
+}
+
+.welcome-text {
+    font-weight: 300;
+    margin-right: 0.5rem;
+    opacity: 0.9;
+}
+
+/* Logout */
+.logout-form {
+    margin: 0;
+}
+
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #cfd8dc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #00796b;
+}
+
+/* Create Document Form */
+.create-doc-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.create-doc-form input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    background-color: #f5f8fa;
+    transition: border-color 0.3s;
+}
+
+.create-doc-form input[type="text"]:focus {
+    border-color: #00bfa5;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.create-doc-form button {
+    background: linear-gradient(135deg, #00bfa5, #00796b);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.create-doc-form button:hover {
+    background: linear-gradient(135deg, #00796b, #004d40);
+}
+
+/* Document Lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+li a {
+    color: #00bfa5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: #00796b;
+    text-decoration: underline;
+}
+
+p {
+    color: #607d8b;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #2e3a59;
+    padding: 2rem;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #00796b;
+    text-align: center;
+}
+
+/* Section Titles */
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #004d40;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #00bfa5;
+    padding-bottom: 0.5rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table th {
+    background-color: #00796b;
+    color: white;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background-color: #f1f8f6;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Document List */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid #00bfa5;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+ul li a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    table, table th, table td {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 1rem;
+    }
+}
+.success-msg {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-left: 4px solid #43a047;
+    border-radius: 6px;
+    margin-top: 1rem;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 35px 45px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    max-width: 420px;
+    transition: all 0.3s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2e3a59;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2e3a59;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    background-color: #f5f8fa;
+    font-size: 15px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #00bfa5;
+    box-shadow: 0 0 5px rgba(0, 191, 165, 0.3);
+    outline: none;
+    background-color: #ffffff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #00bfa5, #00796b);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00796b, #004d40);
+    transform: scale(1.02);
+}
+
+p {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #00bfa5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #00796b;
+    text-decoration: underline;
+}
+
+p[style*="color:green"] {
+    color: #00c853;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+p[style*="color:red"] {
+    color: #e53935;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+}
